@@ -20,6 +20,9 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
 }
 
 li {
@@ -73,5 +76,6 @@ li a i {
 }
 
 iframe{
+	border-style: none;
 	display:block;
 }
