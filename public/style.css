@@ -20,6 +20,7 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0;
@@ -28,6 +29,7 @@ ul {
 li {
 	height: 46px;
 	float: left;
+
 }
 
 li a, .dropbtn {
@@ -45,6 +47,11 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 li.dropdown {
+	display: inline-block;
+}
+
+.dropdown{
+	position: relative;
 	display: inline-block;
 }
 
