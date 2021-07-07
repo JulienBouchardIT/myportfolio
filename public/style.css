@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-	height: 46px;
+	height: 48px;
 	float: left;
 
 }
@@ -71,6 +71,16 @@ li.dropdown {
 	display: block;
 	text-align: left;
 }
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown:hover{
+	height: 100px;
+}
+
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
